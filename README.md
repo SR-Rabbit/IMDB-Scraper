@@ -1,4 +1,5 @@
 # IMDB-Scraper
+Top 1000 IMDB movies scraper
 
 ## Introduction
 A simple web scraper targeted towards scraping the top 1000 movies from IMDB.
