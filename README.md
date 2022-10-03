@@ -14,7 +14,7 @@ This scraper respects robots.txt on IMDB.com, and limits its stress and load on 
 `
 pip install requirements.txt 
 `
-- Customise UserAgents and Proxies in `ScraperHeader.ini`
+- Customise UserAgents and Proxies in `ScraperHeader.ini` to include your own browsers UserAgent and IP Address/Proxy
 - Run `IMDBScraper.py`
 - Wait while data is scraped into an `.sqlite` file within the same directory as `IMDBScraper.py`
 
