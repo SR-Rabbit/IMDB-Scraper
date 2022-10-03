@@ -10,6 +10,7 @@ This scraper respects robots.txt on IMDB.com, and limits its stress and load on 
 >Recommended for Python 3.9+.
 
 - Install the dependencies via pip:
+
 '''
 pip install requirements.txt 
 '''
