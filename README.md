@@ -9,12 +9,12 @@ This scraper respects robots.txt on IMDB.com, and limits its stress and load on 
 ## Usage
 >Recommended for Python 3.9+.
 
--Install the dependencies via pip:
+- Install the dependencies via pip:
 '''
 pip install requirements.txt 
 '''
--Run IMDBScraper.py
--Wait while data is scraped into an .sqlite file within the same directory as IMDBScraper.py
+- Run IMDBScraper.py
+- Wait while data is scraped into an .sqlite file within the same directory as IMDBScraper.py
 
 ## Issues
 Due to some movies lacking certain attributes (i.e. age ratings, runtime, etc...) the program may encounter issues during the insertion process of the inserting movies data into the database. If so then an AttributeError will be thrown.
