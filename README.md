@@ -16,7 +16,7 @@ pip install requirements.txt
 `
 - Customise UserAgents and Proxies in `ScraperHeader.ini`
 - Run `IMDBScraper.py`
-- Wait while data is scraped into an .sqlite file within the same directory as IMDBScraper.py
+- Wait while data is scraped into an `.sqlite` file within the same directory as `IMDBScraper.py`
 
 ## Issues
 Due to some movies lacking certain attributes (i.e. age ratings, runtime, etc...) the program may encounter issues during the insertion process of the inserting movies data into the database. If so then an AttributeError will be thrown.
